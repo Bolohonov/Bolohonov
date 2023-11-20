@@ -11,6 +11,7 @@
 
 ##### Сервис для добавления, оценки и рекомендации фильмов на основе общих предпочтений.
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=FILMORATE)](https://github.com/Bolohonov/FILMORATE)
+
 Основа проекта на `Spring Boot и JdbcTemplate`. Реализована система поиска, лайков, отзывов, добавления в друзья, алгоритм рекомендаций на основе предпочтений, лента событий.
 
 ##### UI для сервиса публикации событий (в разработке).
