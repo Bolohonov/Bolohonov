@@ -15,10 +15,11 @@
 
 ##### UI для сервиса публикации событий (в разработке).
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=ewm)](https://github.com/Bolohonov/ewm)
+
 UI для сервиса публикации событий. В разработке. На данный момент доступны страницы: Авторизация, Просмотр списка событий, 
 Просмотр информации о событии, Создание нового события. 
 Технологии: 
 Frontend: Vue.js, WaveUI 
-Backend: Spring Boot, PostgreSQL, JPA + Hibernate, JPA Criteria API.
+Backend: Spring Boot, PostgreSQL, JPA + Hibernate, JPA Criteria API
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bolohonov&layout=compact)]
