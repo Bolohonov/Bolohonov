@@ -10,7 +10,7 @@
 Реализована возможность развертывания микросервисов в отдельных контейнерах docker, взаимосвязи между контейнерами прописаны в docker-compose.
 
 ##### Сервис для добавления, оценки и рекомендации фильмов на основе общих предпочтений.
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=FILMORATE)](https://github.com/Bolohonov/FILMORATE)
+[![Readme Card](https://github.com/Bolohonov/filmorate)](https://github.com/Bolohonov/filmorate)
 
 Основа проекта на `Spring Boot и JdbcTemplate`. Реализована система поиска, лайков, отзывов, добавления в друзья, алгоритм рекомендаций на основе предпочтений, лента событий.
 
