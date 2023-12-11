@@ -18,6 +18,7 @@ Backend: Spring Boot, PostgreSQL, JPA + Hibernate, JPA Criteria API
 
 ##### Простой task-менеджер с JWT-аутентификацией
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=tms)](https://github.com/Bolohonov/tms)
+
 Микросервис на SpringBoot с БД - PostgreSQL, Swagger API документация. Настроена контейнеризация docker.   
 
 ##### Сервис для цифровизации процесса обмена вещами
