@@ -30,3 +30,6 @@ Backend: Spring Boot, PostgreSQL, JPA + Hibernate, JPA Criteria API
 
 Основа проекта на `Spring Boot и JdbcTemplate`. Реализована система поиска, лайков, отзывов, добавления в друзья, алгоритм рекомендаций на основе предпочтений, лента событий.
 
+##### Сервис для заказа еды.
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=FoodOrderingApp)](https://github.com/Bolohonov/FoodOrderingApp)  
+Сервис использует брокер сообщений Kafka, настроено развертывание docker-контейнеров.
