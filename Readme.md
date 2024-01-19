@@ -21,9 +21,12 @@ Backend: Spring Boot, PostgreSQL, JPA + Hibernate, JPA Criteria API
 
 Микросервис на SpringBoot с БД - PostgreSQL, Swagger API документация. Настроена контейнеризация docker.   
 
-##### Сервис для цифровизации процесса обмена вещами
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=shareit)](https://github.com/Bolohonov/SHAREIT)   
-Реализована возможность развертывания микросервисов в отдельных контейнерах docker, взаимосвязи между контейнерами прописаны в docker-compose.
+##### Сервис для отправки уведомлений
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=NotificationService)](https://github.com/Bolohonov/NotificationService)   
+Микросервисная архитектура. Запросы поступают на API Gateway и переадресуются на Authorization server, который выдает  
+и проверяет токены JWT. На сервере ресурсов также настроена проверка авторизации. Все микросервисы регистрируются  
+в Spring Eureka. Реализована простая защита от DDoS-атак на основе установленных лимитов подключений для Redis.  
+Реализована возможность развертывания микросервисов в контейнерах docker.
 
 ##### Сервис для добавления, оценки и рекомендации фильмов на основе общих предпочтений.
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=filmorate)](https://github.com/Bolohonov/filmorate)
