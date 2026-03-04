@@ -41,7 +41,7 @@
 
 ## 🚀 Проекты
 
-### 🏪 [Cloud CRM](https://github.com/Bolohonov/crm-app) + [E-commerce Platform](https://github.com/Bolohonov/shop)
+### 🏪 [Cloud CRM](https://github.com/Bolohonov/crm-app) + [E-commerce Platform](https://github.com/Bolohonov/shop-project)
 > Два связанных сервиса с интеграцией через Apache Kafka
 
 **CRM** — микросервисная архитектура, мультитенантная изоляция данных (PostgreSQL), real-time уведомления через SSE, Kafka producer с Transactional Outbox Pattern, drag-and-drop канбан, экспорт Excel/CSV.
