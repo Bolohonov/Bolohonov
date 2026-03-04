@@ -1,38 +1,116 @@
-<h1 align="center">Привет, я Михаил.<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
-<h3 align="center">Программирую на <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-bage&logo=java&logoColor=white" height="24"/>. </h3>
+<h1 align="center">
+  Привет, я Михаил
+  <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
+</h1>
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bolohonov&layout=compact)
+<h3 align="center">Java Backend Developer</h3>
 
-<h3 align="center"> Некоторые из моих проектов: </h3>  
+<p align="center">
+  Строю микросервисы на Spring Boot, деплою в Kubernetes, интегрирую через Kafka.<br/>
+  Иногда пишу на Go — там где важна скорость.
+</p>
 
-##### Сервис по публикации событий и поиска компании для участия в этих событиях
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=java-explore-with-me)](https://github.com/Bolohonov/java-explore-with-me)  
-Реализовано два микросервиса, каждый из которых работает со своей БД - PostgreSQL. Предусмотрена возможность развертывания 4-х контейнеров Docker: 2 для микросервисов и 2 для БД. Также использовал `CriteriaApi`.
+<p align="center">
+  <a href="https://bolohonovma.online" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-bolohonovma.online-667eea?style=for-the-badge&logo=google-chrome&logoColor=white"/>
+  </a>
+  <a href="https://t.me/Bolohonov" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-@Bolohonov-0088cc?style=for-the-badge&logo=telegram&logoColor=white"/>
+  </a>
+</p>
 
-##### UI для сервиса публикации событий (в разработке).
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=ewm)](https://github.com/Bolohonov/ewm)  
-UI для сервиса публикации событий. На данный момент доступны функции: Авторизация, просмотр списка событий, информации о событии, создание нового события.
-Технологии:
-Frontend: Vue.js, WaveUI (UI framework)
-Backend: Spring Boot, PostgreSQL, JPA + Hibernate, JPA Criteria API
+---
 
-##### Простой task-менеджер с JWT-аутентификацией
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=tms)](https://github.com/Bolohonov/tms)
+## 🛠 Стек
 
-Микросервис на SpringBoot с БД - PostgreSQL, Swagger API документация. Настроена контейнеризация docker.   
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white"/>
+  <br/>
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+</p>
 
-##### Сервис для отправки уведомлений
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=NotificationService)](https://github.com/Bolohonov/NotificationService)   
-Микросервисная архитектура. Запросы поступают на API Gateway и переадресуются на Authorization server, который выдает  
-и проверяет токены JWT. На сервере ресурсов также настроена проверка авторизации. Все микросервисы регистрируются  
-в Spring Eureka. Реализована простая защита от DDoS-атак на основе установленных лимитов подключений для Redis.  
-Реализована возможность развертывания микросервисов в контейнерах docker.
+---
 
-##### Сервис для добавления, оценки и рекомендации фильмов на основе общих предпочтений.
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=filmorate)](https://github.com/Bolohonov/filmorate)
+## 🚀 Проекты
 
-Основа проекта на `Spring Boot и JdbcTemplate`. Реализована система поиска, лайков, отзывов, добавления в друзья, алгоритм рекомендаций на основе предпочтений, лента событий.
+### 🏪 Cloud CRM + E-commerce Platform
+> Два связанных сервиса с интеграцией через Apache Kafka
 
-##### Сервис для заказа еды.
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=FoodOrderingApp)](https://github.com/Bolohonov/FoodOrderingApp)  
-Сервис использует брокер сообщений Kafka, настроено развертывание docker-контейнеров.
+[![CRM](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=crm-app&theme=tokyonight)](https://github.com/Bolohonov/crm-app)
+[![Shop](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=shop&theme=tokyonight)](https://github.com/Bolohonov/shop)
+
+**CRM** — микросервисная архитектура, мультитенантная изоляция данных (PostgreSQL), real-time уведомления через SSE, Kafka producer с Transactional Outbox Pattern, drag-and-drop канбан, экспорт Excel/CSV.
+
+**E-commerce** — реактивный стек на Spring WebFlux + R2DBC, неблокирующий доступ к PostgreSQL, Kafka consumer для синхронизации заказов из CRM.
+
+`Java 21` `Spring Boot 3` `Spring WebFlux` `Vue 3` `Kafka` `PostgreSQL` `Docker` `k3s`
+
+---
+
+### 💬 Real-time Chat
+[![Chat](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=chat-app&theme=tokyonight)](https://github.com/Bolohonov/chat-app)
+
+WebSocket приложение для обмена сообщениями в реальном времени. Go-сервис в роли WebSocket-шлюза, Spring Boot для бизнес-логики и авторизации, Vue 3 фронтенд, деплой в k3s через Traefik Ingress.
+
+`Java` `Spring Boot` `Go` `Vue.js` `PostgreSQL` `Redis` `Kubernetes` `Docker`
+
+---
+
+### 🏦 Bank Microservices
+[![Bank](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=bank&theme=tokyonight)](https://github.com/Bolohonov/bank)
+
+8 микросервисов: переводы, конвертация валют, история операций, мониторинг. Полный observability-стек: Prometheus + Grafana + ELK. CI/CD через Jenkins, деплой через Helm.
+
+`Java 21` `Spring Boot` `Kafka` `PostgreSQL` `Kubernetes` `Helm` `Jenkins` `Grafana` `Prometheus` `ELK`
+
+---
+
+### 📅 EventHub
+[![EventHub](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=ewm&theme=tokyonight)](https://github.com/Bolohonov/ewm)
+
+Сервис публикации событий и поиска участников. Два микросервиса с раздельными БД, Vue.js фронтенд, JPA Criteria API для гибкой фильтрации, Docker Compose для развёртывания.
+
+`Java` `Spring Boot` `Vue.js` `PostgreSQL` `Docker`
+
+---
+
+### 🔔 Notification Service
+[![Notification](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=NotificationService&theme=tokyonight)](https://github.com/Bolohonov/NotificationService)
+
+API Gateway + Authorization Server с JWT, Spring Eureka для service discovery, защита от DDoS через Redis rate limiting.
+
+`Java` `Spring Cloud` `Spring Eureka` `Redis` `Docker`
+
+---
+
+### ✅ Task Manager Service
+[![TMS](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=tms&theme=tokyonight)](https://github.com/Bolohonov/tms)
+
+Микросервис с JWT-аутентификацией и Swagger API документацией.
+
+`Java` `Spring Boot` `PostgreSQL` `Docker`
+
+---
+
+### 🎬 Filmorate
+[![Filmorate](https://github-readme-stats.vercel.app/api/pin/?username=bolohonov&repo=filmorate&theme=tokyonight)](https://github.com/Bolohonov/filmorate)
+
+Сервис оценки и рекомендации фильмов. Алгоритм рекомендаций на основе общих предпочтений, лента событий, система лайков и друзей.
+
+`Java` `Spring Boot` `PostgreSQL`
+
+---
+
+## 📊 Статистика
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bolohonov&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
