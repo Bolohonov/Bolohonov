@@ -46,7 +46,7 @@
 
 **CRM** — микросервисная архитектура, мультитенантная изоляция данных (PostgreSQL), real-time уведомления через SSE, Kafka producer с Transactional Outbox Pattern, drag-and-drop канбан, экспорт Excel/CSV.
 
-**E-commerce** — реактивный стек на Spring WebFlux + R2DBC, неблокирующий доступ к PostgreSQL, Kafka consumer для синхронизации заказов из CRM.
+**E-commerce** — Интернет-магазин ИТ-услуг с Kafka-интеграцией, корзиной, балансом и SSE уведомлениями о статусе заказов из CRM.
 
 `Java 21` `Spring Boot 3` `Spring WebFlux` `Vue 3` `Kafka` `PostgreSQL` `Docker` `k3s`
 
@@ -92,11 +92,11 @@ API Gateway + Authorization Server с JWT, Spring Eureka для service discover
 
 ---
 
-### 🎬 [Filmorate](https://github.com/Bolohonov/filmorate)
+### 🏪 [Product Storefront](https://github.com/Bolohonov/shop)
 
-Сервис оценки и рекомендации фильмов. Алгоритм рекомендаций на основе общих предпочтений, лента событий, система лайков и друзей.
+Реактивный интернет-магазин на Spring WebFlux: витрина товаров с поиском и пагинацией, корзина, история заказов и эмуляция оформления покупки
 
-`Java` `Spring Boot` `PostgreSQL`
+`Java` `Spring WebFlux` `PostgreSQL R2DBC`
 
 ---
 
