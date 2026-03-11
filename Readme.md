@@ -48,7 +48,7 @@
 
 **E-commerce** — Интернет-магазин ИТ-услуг с Kafka-интеграцией, корзиной, балансом и SSE уведомлениями о статусе заказов из CRM.
 
-`Java 21` `Spring Boot 3` `Spring WebFlux` `Vue 3` `Kafka` `PostgreSQL` `Docker` `k3s`
+`Java 21` `Spring Boot 3` `Vue 3` `Kafka` `PostgreSQL` `Docker` `k3s`
 
 ---
 
